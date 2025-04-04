@@ -22,4 +22,13 @@ public class Car implements IVehicle {
     public int accept(IVehicleInspector vehicleInspector) {
         return vehicleInspector.visit(this);
     }
+    @Override
+    public float co2Emissions() {
+        
+        return (float)(8887 * (1 + (0.05 * (2020 - manufactureDate))));
+    }
+    @Override
+    public String toString() {
+        return "Car: color=" + color + ", manufactureDate=" + manufactureDate;
+    }
 }
