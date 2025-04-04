@@ -9,6 +9,16 @@ This project demonstrates three design patterns :
 
 **Activity 3**Uses the Strategy pattern to modify the behavior of the 'calculateTotal' method by introducing an emissions fee strategy. The new vehicle interface contains a 'co2Emissions()' method, and new strategy classes ( 'OneEmissionsStrategy','TwoEmissionsStrategy' , 'NullEmissionsStrategy') are used by the singleton service 'Act3vehicleService'  and its main class 'Act3Main.java'.
 
+## commit history
+
+### Initial Commit
+    **Initial Commit :** b2fcafad6f05f80de8e8f0559100e60f1e769bd5
+    **Activity 1 - Factory pattern** 981d5e4e9e6561066a5620e795266fb5b9c22cae
+    **Activity 2 - Dependency Injection** 981d5e4e9e6561066a5620e795266fb5b9c22cae
+    **Activity 2 - Strategy Pattern** 981d5e4e9e6561066a5620e795266fb5b9c22cae
+
+
+
 ## Build and run Instructions ##
 
 ### Pre-requisites
