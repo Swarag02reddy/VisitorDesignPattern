@@ -54,6 +54,8 @@ The strategy pattern ties algorithms together so that they can be swapped out at
 - this code was first tested on local system.
 - after its ready it is updated in git
 
+## Differences between Strategy and Visitor Patterns
 
-
-
+The Visitor pattern is especially relevant when you need to perform an array of disparate operations on your stable object strcture without 
+the visitor patter is especually relavant when you need to perform an array of disparate operations on your stable object structure without 
+pattern is used when you want to select dynamically between different algotuthms or behavius and encapsulates these replacable behaviours so that object's behavour can change at runtime. personally, I prefer the strategy pattern when dealing with algorithmic variation-such as different calculation methods-since it offers greater flexibility and decoupling withour imposing a strict structure on the object hierarchy.But if my opeations are promarily fixed and i want to add functionality without modifying the existing class structure, visitor is the better option.
