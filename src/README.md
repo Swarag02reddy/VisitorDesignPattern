@@ -51,7 +51,8 @@ The strategy pattern ties algorithms together so that they can be swapped out at
 
 ## git info
 
-- this code was first tested on local system and after its ready it is updated in git
+- this code was first tested on local system.
+- after its ready it is updated in git
 
 
 
